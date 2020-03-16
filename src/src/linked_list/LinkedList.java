@@ -81,7 +81,7 @@ public class LinkedList {
         temp.next = newNode;
     }
 
-    static class Node {
+    private static class Node {
         int data;
         Node next;
 
