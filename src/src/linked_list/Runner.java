@@ -31,6 +31,22 @@ public class Runner {
         System.out.println("Popped/removedLast " + stack.removeLast());
         System.out.println("Peeked/getLast " + stack.getLast());
         System.out.println("Peeked " + stack.peek());
+
+
+        Queue queue = new Queue();
+        queue.enqueue(6);
+        queue.enqueue(9);
+        queue.enqueue(7);
+        queue.enqueue(3);
+        queue.enqueue(11);
+        queue.enqueue(13);
+        queue.display();
+        queue.peek();
+        queue.dequeue();
+        queue.peek();
+        queue.dequeue();
+        queue.peek();
+        queue.display();
     }
 
 }
