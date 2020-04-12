@@ -1,4 +1,4 @@
-package src.linked_list;
+package dsa_algo.data_structures;
 
 public class LinkedList {
 
